@@ -1,4 +1,4 @@
-package com.example.jackinpoint.ui.theme
+package tokyo.keyno63.jackinpoint.theme
 
 import androidx.compose.ui.graphics.Color
 

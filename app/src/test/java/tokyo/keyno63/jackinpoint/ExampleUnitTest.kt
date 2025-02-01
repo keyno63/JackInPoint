@@ -1,4 +1,4 @@
-package com.example.jackinpoint
+package tokyo.keyno63.jackinpoint
 
 import org.junit.Test
 

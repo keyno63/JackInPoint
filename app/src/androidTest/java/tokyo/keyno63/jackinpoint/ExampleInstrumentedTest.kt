@@ -1,4 +1,4 @@
-package com.example.jackinpoint
+package tokyo.keyno63.jackinpoint
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

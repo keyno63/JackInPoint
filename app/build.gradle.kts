@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.jackinpoint"
+    namespace = "tokyo.keyno63.jackinpoint"
     compileSdk = 35
 
     defaultConfig {
