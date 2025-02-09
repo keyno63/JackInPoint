@@ -1,5 +1,6 @@
 package tokyo.keyno63.jackinpoint
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -27,6 +28,10 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+        val intent = Intent(this, ProductActivity::class.java).apply {
+            addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
+        }
+        startActivity(intent)
     }
 }
 
