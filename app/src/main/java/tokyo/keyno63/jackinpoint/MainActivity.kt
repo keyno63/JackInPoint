@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(innerPadding)
                             .clickable {
-                                val intent = Intent(this@MainActivity, ProductActivity::class.java).apply {
+                                val intent = Intent(this@MainActivity, ProductListActivity::class.java).apply {
                                     addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT)
                                 }
                                 startActivity(intent)
